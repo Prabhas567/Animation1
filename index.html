@@ -14,7 +14,7 @@
     font-size: 30px;
     font-weight: bold; 
     column-gap: 3px;
-    /* margin-top: 250px;         */
+   
     }
     body{
         display: flex;
@@ -22,6 +22,15 @@
         align-items: center;
         height:100vh;
         margin: 0;
+        background-image: url(./istockphoto-1248542684-612x612.jpg);
+        background-size: 1250px;
+        color: wheat;
+        /* background-image: repeating-linear-gradient(orange white green); */
+        /* background-color: chocolate; */
+        /* border:1px solid black;
+        width: 100opx;
+        height: 100px;
+        background-image: repeating-linear-gradient(orange white green); */
     }
 
      @keyframes myAnimation{
@@ -39,32 +48,53 @@
         animation-duration: 0.5s;
      }
      .md span:nth-child(2){
-        animation-duration: 1s;
+        animation-delay: 1s;
      }
      .md span:nth-child(3){
-        animation-duration: 1.5s;
+        animation-delay: 1.5s;
      }
      .md span:nth-child(4){
-        animation-duration: 2.0s;
+        animation-delay: 2.0s;
      }
      .md span:nth-child(5){
-        animation-duration: 2.5s;
+        animation-delay: 2.5s;
      }
      .md span:nth-child(6){
-        animation-duration: 3.0s;
+        animation-delay: 3.0s;
      }
      .md span:nth-child(7){
-        animation-duration: 3.5s;
+        animation-delay: 3.5s;
      }
      .md span:nth-child(8){
-        animation-duration: 4.0s;
+        animation-delay: 4.0s;
      }
      .md span{
         animation: myAnimation 1s forwards;
         opacity:0 ;
         display: inline-block;
      }
+     
+     .md1 span:nth-child(1){
+        animation-delay: 4.5s;
+     }
+     .md1 span:nth-child(2){
+        animation-delay: 5s;
+     }  
+     .md1 span:nth-child(3){
+        animation-delay: 5.5s;
+     }
+     .md1 span:nth-child(4){
+        animation-delay: 6.0s;
+     }
+     .md1 span:nth-child(5){
+        animation-delay: 6.5s;
+     }
+     .md1 span{
+        animation: myAnimation 1s forwards;
+        opacity: 0;
 
+     }
+     
     </style>
 
 
@@ -83,6 +113,8 @@
 
 
 <div class="md">
+
+
 
 <span>
     S
@@ -108,11 +140,27 @@
 <span>
     h
 </span>
+<div class="md1">
+<span>
+    N
+</span>
 
+<span>
+    a
+</span>
 
+<span>
+    i
+</span>
 
+<span>
+    d
+</span>
+<span>
+    u
+</span>
 </div>
-
+</div>
 
 
 
